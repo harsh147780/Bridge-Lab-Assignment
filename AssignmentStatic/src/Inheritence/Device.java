@@ -1,0 +1,26 @@
+package Inheritence;
+
+public class Device {
+	protected String deviceId;
+	protected String status;
+	
+	public Device(String deviceId , String status) {
+		this.deviceId = deviceId;
+		this.status = status;
+		
+	}
+	 public void displayStatus() {
+	        System.out.println("Device ID: " + deviceId);
+	        System.out.println("Status: " + status);
+	    }
+	 
+	 public String getDeviceId() {
+		 return deviceId;
+	 }
+	 public String status() {
+		 return status;
+	 }
+	 public void setStatus() {
+		 this.status = status;
+	 }
+}
